@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+#box{
+    background-color: rgb(246, 246, 246);
+    
+    border-radius: 10px;
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: -5px 8px 28px -1px rgba(0,0,0,0.69);
+    -webkit-box-shadow: -5px 8px 28px -1px rgba(0,0,0,0.69);
+    -moz-box-shadow: -5px 8px 28px -1px rgba(0,0,0,0.69);
+    justify-content: center;
+}
+.btn{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(194deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    
+    justify-content: center;
+}
+.btn:hover{
+    box-shadow: 1px 2px 68px -9px rgba(7,5,156,0.75);
+-webkit-box-shadow: 1px 2px 68px -9px rgba(7,5,156,0.75);
+-moz-box-shadow: 1px 2px 68px -9px rgba(7,5,156,0.75);
+}
+.input{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.input input:hover {
+    box-shadow: 1px 2px 68px -9px rgba(7,5,156,0.75);
+    -webkit-box-shadow: 1px 2px 68px -9px rgba(7,5,156,0.75);
+    -moz-box-shadow: 1px 2px 68px -9px rgba(7,5,156,0.75);
+  
+}
+#baslik{
+    text-align: center ;
+    margin-top: 160px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(194deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(50, 114, 156) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
