@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.buton{
+    color: rgb(236, 236, 236);
+    font-size: 18px;
+    font-weight: 480;
+    width: 100px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(194deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    
+    justify-content: center;
+    -webkit-box-shadow: 0px 4px 19px -9px rgba(0,0,0,0.73); 
+    box-shadow: 0px 4px 19px -9px rgba(0,0,0,0.73);
+}
+.navbar{
+    -webkit-box-shadow: 0px 4px 19px -9px rgba(0,0,0,0.73); 
+    box-shadow: 0px 4px 19px -9px rgba(0,0,0,0.73);
+}
+#baslik{
+    text-align: center ;
+    margin-top: 40px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(194deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(50, 114, 156) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card{
+    -webkit-box-shadow: 0px 4px 19px -9px rgba(0,0,0,0.73); 
+    box-shadow: 0px 4px 19px -9px rgba(0,0,0,0.73);
+}
+.cont{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.buton:hover{
+    z-index:4;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);  
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
